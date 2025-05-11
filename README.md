@@ -1,19 +1,92 @@
 # BuzzingBee
-Website Overview
-a live web browser using html, style css and javascript 
+<!DOCTYPE html>
+<html lang="en">
 
-Landing Page ("Buzzing Bees")
-The whole project is divided into two sections: 
-SECTION - 1
- * A large stylized title, BUZZING BEES, appears over a vibrant background with decorative flower and leaf images.
- * When we come to our landing page we can see the bee is moving which makes our landing page more attractive and captivating
-   
-<img width="1465" alt="Screenshot 2025-05-11 at 2 26 13 PM" src="https://github.com/user-attachments/assets/b3ac89db-f72f-48ad-b354-61ba90d52d65" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-SECTION - 2 
- * As we scroll down to the bottom of the pages the bee tries to changes it's position which looks it's going through the leaves
-   
-   <img width="1428" alt="Screenshot 2025-05-11 at 2 26 30 PM" src="https://github.com/user-attachments/assets/8785b2fb-37f4-4f4f-afc6-74ad58602808" />
-   <img width="1444" alt="Screenshot 2025-05-11 at 2 26 46 PM" src="https://github.com/user-attachments/assets/91798ca4-33f4-48fd-819b-f6eee1151204" />
-   
-The integration of a 3D model enhances the interactive experience, making the topic more captivating and memorable for visitors
+<body>
+    <header>
+        <div class="content-fit">
+            <div class="logo">Ayush</div>
+            <nav>
+                <ul>
+                    <li>Contacts</li>
+                    <li>Category</li>
+                    <li>Login</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="section" id="banner">
+        <div class="content-fit">
+            <div class="title" data-before="IN NATURE">BUZZING BEES</div>
+        </div>
+        <img src="img/flower.png" class="decorate" alt="" style="width: 50vw; bottom: 0; right: 0;">
+        <img src="img/leaf.png" class="decorate" alt="" style="width: 30vw; bottom: 0; left: 0;">
+    </div>
+    <div class="section" id="intro">
+        <div class="content-fit">
+            <div class="number">01</div>
+            <div class="des">
+                <div class="title">The Vital role of bees</div>
+                <p>Bees are vital pollinators, with over 25,000 species worldwide, 
+                    including honeybees and bumblebees. Honeybees convert nectar into honey, 
+                    collect pollen, and secrete wax for their honeycombs. 
+                    They live in colonies with specific roles and communicate through a waggle dance to efficiently forage. 
+                    Bumblebees, although different in colony structure and physical appearance, demonstrate complex social learning. 
+                    Bees play a crucial role in pollination, facilitating plant reproduction by transferring pollen. 
+                    This symbiotic relationship is vital for the production of many foods and the maintenance of natural ecosystems. </p>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="description">
+        <div class="content-fit">
+            <div class="number">02</div>
+            <div class="des">
+                <div class="title">The Fight to save them </div>
+                <p>Recent surveys indicate alarming honeybee colony losses in the U.S., averaging 62% among commercial beekeepers. 
+                    Factors like nutrition deficiencies, infestations, disease, and pesticide exposure contribute to these declines. 
+                    In response, innovative solutions such as RNA-based treatments targeting parasitic mites are being developed, inspired by COVID-19 vaccine technology. 
+                    These advancements aim to protect bee populations and ensure continued pollination services essential for agriculture.</p>
+            </div>
+        </div>
+        <img src="img/leaf1.png" class="decorate" alt="" style="width: 70vw; bottom: 0; right: 0; z-index: 101;">
+    </div>
+    <div class="section" id="contact">
+        <div class="content-fit">
+            <div class="number">Personal Details</div>
+            <div class="des">
+                <div class="title">CONTACT</div>
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>test@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>+841.231.235</td>
+                    </tr>
+                    <tr>
+                        <td>Website</td>
+                        <td>lundevweb.com</td>
+                    </tr>
+                    <tr>
+                        <td>Youtube</td>
+                        <td>@zoltrixxdeveloper</td>
+                    </tr>
+                </table>
+                <div class="sign">Ayush</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<div id="container3D"></div>
+<script type="module" src="app.js"></script>
+</html>
