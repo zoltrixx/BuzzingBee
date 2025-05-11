@@ -1,6 +1,6 @@
 # BuzzingBee
 🔷 Website Overview:
- The Whole project can be divided into two sections :
+ The Whole project is divided into two sections :
 
  SECTION - 1
  Landing Page ("Buzzing Bees")
