@@ -1,92 +1,19 @@
 # BuzzingBee
-<!DOCTYPE html>
-<html lang="en">
+🔷 Website Overview:
+ The Whole project can be divided into two sections :
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+ SECTION - 1
+ Landing Page ("Buzzing Bees")
+ * A large stylized title, BUZZING BEES, appears over a vibrant background with decorative flower and leaf images.
+ * Where a live moving bee is also there when we come to our landing page after compilation
+   
+ <img width="1465" alt="Screenshot 2025-05-11 at 2 26 13 PM" src="https://github.com/user-attachments/assets/45ff1a38-b98b-4df2-8c39-550f21f01204" />
 
-<body>
-    <header>
-        <div class="content-fit">
-            <div class="logo">Ayush</div>
-            <nav>
-                <ul>
-                    <li>Contacts</li>
-                    <li>Category</li>
-                    <li>Login</li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <div class="section" id="banner">
-        <div class="content-fit">
-            <div class="title" data-before="IN NATURE">BUZZING BEES</div>
-        </div>
-        <img src="img/flower.png" class="decorate" alt="" style="width: 50vw; bottom: 0; right: 0;">
-        <img src="img/leaf.png" class="decorate" alt="" style="width: 30vw; bottom: 0; left: 0;">
-    </div>
-    <div class="section" id="intro">
-        <div class="content-fit">
-            <div class="number">01</div>
-            <div class="des">
-                <div class="title">The Vital role of bees</div>
-                <p>Bees are vital pollinators, with over 25,000 species worldwide, 
-                    including honeybees and bumblebees. Honeybees convert nectar into honey, 
-                    collect pollen, and secrete wax for their honeycombs. 
-                    They live in colonies with specific roles and communicate through a waggle dance to efficiently forage. 
-                    Bumblebees, although different in colony structure and physical appearance, demonstrate complex social learning. 
-                    Bees play a crucial role in pollination, facilitating plant reproduction by transferring pollen. 
-                    This symbiotic relationship is vital for the production of many foods and the maintenance of natural ecosystems. </p>
-            </div>
-        </div>
-    </div>
-    <div class="section" id="description">
-        <div class="content-fit">
-            <div class="number">02</div>
-            <div class="des">
-                <div class="title">The Fight to save them </div>
-                <p>Recent surveys indicate alarming honeybee colony losses in the U.S., averaging 62% among commercial beekeepers. 
-                    Factors like nutrition deficiencies, infestations, disease, and pesticide exposure contribute to these declines. 
-                    In response, innovative solutions such as RNA-based treatments targeting parasitic mites are being developed, inspired by COVID-19 vaccine technology. 
-                    These advancements aim to protect bee populations and ensure continued pollination services essential for agriculture.</p>
-            </div>
-        </div>
-        <img src="img/leaf1.png" class="decorate" alt="" style="width: 70vw; bottom: 0; right: 0; z-index: 101;">
-    </div>
-    <div class="section" id="contact">
-        <div class="content-fit">
-            <div class="number">Personal Details</div>
-            <div class="des">
-                <div class="title">CONTACT</div>
-                <table>
-                    <tr>
-                        <td>Email</td>
-                        <td>test@gmail.com</td>
-                    </tr>
-                    <tr>
-                        <td>Phone</td>
-                        <td>+841.231.235</td>
-                    </tr>
-                    <tr>
-                        <td>Website</td>
-                        <td>lundevweb.com</td>
-                    </tr>
-                    <tr>
-                        <td>Youtube</td>
-                        <td>@zoltrixxdeveloper</td>
-                    </tr>
-                </table>
-                <div class="sign">Ayush</div>
-            </div>
-        </div>
-    </div>
-</body>
+ SECTION - 2 
+ * As we scroll down to our page the bee seems to be moving and changing it's places which makes look attractive to our user
 
+ <img width="1428" alt="Screenshot 2025-05-11 at 2 26 30 PM" src="https://github.com/user-attachments/assets/6048bb9b-dffb-4050-8031-3fb38f51cbea" />
+ <img width="1444" alt="Screenshot 2025-05-11 at 2 26 46 PM" src="https://github.com/user-attachments/assets/146f45b5-3c46-422f-9ecb-0bf92e9eae5b" />
 
-<div id="container3D"></div>
-<script type="module" src="app.js"></script>
-</html>
+ The integration of a 3D model enhances the interactive experience, making the topic more captivating and memorable for visitors.
+
